@@ -58,9 +58,9 @@ A workspace may be extended a maximum of five times.
 
 ### Sharing a workspace
 
-You can give access to your workspace to other users on Orca using the `ws_share` command.
-To give access to a user with username `<user>`, run `ws_share share <ws-name> <user>`.
-You can later revoke access with `ws_share unshare <ws-name> <user>`.
+Currently, due to limitations of the underlying scratch filesystem, workspaces cannot be shared (the `ws_share` command will return an error).
+We hope to address this limitation in the future.
+For now, to request a shared workspace, please email orca@pdx.edu with the list of users, project description, and expiration date.
 
 ## Local Scratch
 
